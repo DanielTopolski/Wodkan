@@ -1,0 +1,293 @@
+
+		  /* Plik css wygenerowany automatycznie dla systemow EBOK 2019-08-01 12:44:48 - Panel administracyjny */
+table.content_borw
+{
+  width:100%;
+  text-align: center;
+  background-color:#5badff;
+  margin-top: 3%;
+  border: solid 2px white;
+}
+
+table.content_borw_l
+{
+  width:100%;
+  position: center;
+  z-index: 3;
+  background-color: #5badff;
+  margin-top: 3%;
+  padding-top: 9%;
+  padding-bottom: 15%;
+  border: solid 2px white;
+  box-shadow: 10px 10px 10px
+}
+
+table.content_borw_lup
+{
+  width:100%;
+  background-color: #5badff;
+  margin-top: 3%;
+  padding-top: 9%;
+  border: solid 2px white;
+  box-shadow: 10px 10px 10px
+}
+
+table.content_borw_2
+{
+  width:100%;
+  height: 12%;
+  background-color: #cae4ff;
+  margin-top: 0;
+  border: solid 1px white;
+}
+
+table.content_borw_3
+{
+  width:100%;
+  height: 100px;
+  background-color: #cae4ff;
+  margin-top: 0;
+  border: solid 1px white;
+}
+
+tr.header_tab
+{
+	background-color: #5badff;
+	text-align: center;
+	padding: 0.96vw;
+	color: #7a7a7a;
+	font-weight: bold;
+	border-right: solid 1px #cae4ff;
+}
+
+tr.body_tab
+{
+	background-color: #ffffff;
+	text-align: center;
+	padding: 3%;
+	color: #7a7a7a;
+  font-weight: normal;
+}
+
+table.content_borb
+{
+ width:100%;
+ color: #7a7a7a;
+ background-color: #ffffff;
+// margin-top: 3%;
+ border: solid 1px #cae4ff;
+}
+
+table.content_borb_up
+{
+ width:100%;
+ align: center;
+ height: 20em;
+ color: #7a7a7a;
+ background-color: #ffffff;
+ margin-top: 5px;
+ border: solid 1px #cae4ff;
+}
+
+table.content_borb80
+{
+ width:80%;
+ color: #7a7a7a;
+ background-color: #ffffff;
+ margin-top: 5px;
+ border: solid 1px #cae4ff;
+}
+
+td.tab_row_bor
+{
+	border-bottom: solid 1px #cae4ff;
+	border-right: solid 1px #cae4ff;
+}
+
+td.tab_row_bor1
+{
+	border-bottom: solid 1px #cae4ff;
+	border-right: solid 1px #cae4ff;
+	text-decoration: none;
+}
+
+table.grp_acc
+{
+  background-color: #5badff;
+  width: 65%;
+}
+
+div#get_dat_st
+{
+  display: none;
+  position: fixed;
+  left: 38%;
+  top: 47%;
+  width: 450px;
+  height: 50px;
+  z-index: 5
+}
+
+table.get_dat_st_tab
+{
+	border: solid 2px white;
+	background-color: #5badff;
+	width: 450px;
+	height: 50px;
+	align: center;
+	box-shadow: 10px 10px 10px;
+}
+
+div#nsup
+{
+  display: none;
+  position: fixed;
+  LEFT: 40%;
+  WIDTH: 417px;
+  TOP: 35%;
+  HEIGHT: 143px;
+  z-index: 3;
+  border: solid 1px gray;
+  box-shadow: 10px 10px 10px
+}
+
+table#nsup_table
+{
+	width: 417px;
+	height: 143px;
+	background-color:#5badff;
+	padding: 5px;
+	border: 3px solid #949494;
+}
+
+div#panelb
+{
+  background-color: #D2FFD2;
+  display: block;
+  position: absolute;
+  width: 35%;
+  left: 40%;
+  top: 25%;
+  box-shadow: 10px 10px 10px
+}
+
+div#panel
+{
+  background-color: #D2FFD2;
+  position: relative;
+}
+
+table#panelb_table
+{
+  background-color: #5badff;
+  position: relative;
+  width: 100%;
+  border: 2px solid white;
+  z-index: 3;
+}
+
+table#int_table
+{
+  background-color: #cae4ff; /*#f3e6d6;*/
+  position: relative;
+  align: center;
+  border-color: white;
+  width: 100%;
+}
+
+tr.head_row_2
+{
+  background-color: #5badff;
+  border-bottom: solid 2px white;
+  border-left: solid 2px white;
+}
+
+td.head_box_2
+{
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  font-weight: bold;
+}
+
+td.head_box_2r
+{
+  border-top: solid 2px white;
+  border-right: solid 2px white;
+  border-bottom: solid 2px white;
+  font-weight: bold;
+}
+
+td.body_box_2r
+{
+  border-right: solid 2px white;
+}
+
+div#get_invb_i
+{
+  background-color: #FFFFFF;
+  display: block;
+  position: absolute;
+  font-size: 0.87vw;
+  left: 27%;
+  top: 10%;
+  width: 55%;
+  z-index: 13;
+  border: solid 1px gray;
+  box-shadow: 10px 10px 10px
+}
+
+table.get_invb_i_table
+{
+  background-color: #FFFFFF;
+  position: relative;
+  font-size: 0.87vw;
+  align: left;
+  width: 100%;
+  border: solid 3px white;
+  z-index: 13;
+}
+
+div#get_data
+{
+  display: none;
+}
+
+div#forg_log
+{
+	display: none;
+}
+
+div#store_read
+{
+	display: none;
+}
+
+div#conf_pass
+{
+	display: block;
+}
+
+div#forg_pas_form
+{
+	display: block;
+}
+.sub_btn
+{
+  padding: 5px;
+  background-color: #DDDDDD;
+  width: 100%;
+}
+
+table.log_pan_body a:hoover
+{
+	color: blue;
+	background-color: #5badff;
+}
+.ann_body
+{
+	background-color: #5badff;
+	width: 100%;
+	valign: top;
+	padding: 10px;
+}
+

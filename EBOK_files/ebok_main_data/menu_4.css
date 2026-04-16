@@ -1,0 +1,185 @@
+
+		  /* Plik css wygenerowany automatycznie dla systemow EBOK/EBOP 2024-01-19 09:03:54 - Panel administracyjny */
+      /* ------------------------CZĘŚĆ-GÓRNA-MENU------------------------ */
+
+      /* wygląd głównego elementu - ol */
+      ol#menu
+      {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+        width:99,5%;
+        background-repeat:no-repeat;
+        background-color: #cae4ff ; /*#F8EBDE;*/
+        font-size:0.96vw;
+        height:2.3em;
+        line-height:2.3em;
+        text-align:center;
+        border: 1px solid #000000; /* 1px solid black;*/
+     /* 5px 5px 10px gray; */
+        z-index: 10;
+      }
+
+      /* wyglÄd wszystkich elementĂłw - a - znajdujÄcych siÄ w elemencie - ol */
+      ol#menu a {
+        display:block;
+        text-decoration:none;
+        color: #000000; /*#000000;*/
+        padding:0 2%;
+        border-right: 2px solid #ffffff; /* 2px solid white; */
+      }
+
+      /* wyglÄd elementĂłw - li - wszystkich dzieci elementu - ol */
+      ol#menu > li {
+        float:left;
+        width: 11.1%;
+        margin-left:0;
+        background-color: #cae4ff; /*#F8EBDE;*/
+        height:2.2em;
+        z-index: 11;
+      }
+
+      /* wyglÄd elementu - li - pierwszego dziecka elementu - ol */
+      ol#menu > li:first-child {
+        margin-left:0px;
+      }
+
+      /* wyglÄd elementĂłw - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol#menu > li:hover {
+        background-color: #5badff;  /*#EFD2B6;*/
+        box-shadow: 5px 5px 10px;
+        z-index: 12;
+      }
+
+      /* wyglÄd elementu - a - dziecka elementu - li - bÄdÄcego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol#menu > li:hover > a {
+        color: #ffffff;  /*black;*/
+      }
+
+      /* wyglÄd elementu - ul - dziecka elementu - li - bÄdÄcego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol#menu > li:hover > ul {
+        display:block;
+      }
+
+      /* ------------------------CZÄĹÄ-ROZWIJANA-MENU------------------------ */
+
+      /* wyglÄd gĹĂłwnych rozwijanych elementĂłw - ul */
+      ol#menu > li > ul {
+        display:none;
+        list-style-type:none;
+        padding:0;
+        margin:0;
+        text-align:left;
+        border-right:1px solid white;
+        z-index: 12;
+      }
+
+      /* wyglÄd elementu - li - w czÄĹci rozwijanej */
+      ol#menu > li > ul > li {
+        position:relative;
+        background-color: #f3f3f3; /*#E2E2E2;*/
+        width: 130%;
+        box-shadow: 10px 10px 5px gray;
+        z-index: 12;
+      }
+
+      /* wyglÄd elementu - a - w czÄĹci rozwijanej */
+      ol > li > ul > li > a {
+        border-top:1px solid white;
+      }
+
+        /* wyglÄd elementu - li - w czÄĹci rozwijanej, po najechaniu kursorem myszki na dany element - li */
+      ol#menu > li > ul > li:hover {
+        background-color: #eaeaea;  /*#CACACA;*/
+      }
+
+      /* wyglÄd elementu - a - w czÄĹci rozwijanej, po najechaniu kursorem myszki na element - li */
+      ol#menu > li > ul > li:hover > a {
+        color: #000080;   /*gray;*/
+      }
+
+    td.boxheader:hover
+    {
+      background-color:#5badff;  /*#EFD2B6;*/
+      box-shadow: 5px 5px 10px;
+    }
+
+	/********************************
+	 *       menu komunikaty        *
+	 ********************************/
+
+#menu_msgs {
+	width: 98%;
+	display: block;
+	top: 10px;
+	margin: 15px;
+	padding-left: 2%;
+	padding-right: 5%;
+}
+
+#menu_msgs dt a{
+	background-color: #cae4ff ; /*#F8EBDE;*/
+	color: #000000;
+	width: 90%;
+	font-weight: normal;
+	text-align: left;
+	height: 3.0em;
+	cursor: pointer;
+	padding: 5px;
+  vertical-align: baseline;
+	border: 2px outset white;   //#ccc;
+}
+
+#menu_msgs dt a:hover {
+  border-style: inset;
+  background-color: #5badff;  /*#EFD2B6;*/
+  color: black;
+  vertical-align: baseline;
+  padding: 7px 7px 7px 7px;
+}
+
+#menu_msgs dt a:active {
+  border-style: inset;
+  background-color: yellow;
+  color: black;
+  vertical-align: baseline;
+  padding: 7px 7px 7px 7px;
+}
+
+#menu_msgs dt a:link, dd a:visited
+{
+     display: block;
+     text-decoration: none;
+}
+#menu_msgs dt a:link, dd a:active
+{
+     display: block;
+     text-decoration: none;
+}
+#menu_msgs dd  {
+	background-color: #f3f3f3; /*#E2E2E2;*/
+	width: 90%;
+	color: #000000;
+	border-width: 0 1px 1px 1px;
+	font-weight: normal;
+	text-align: left;
+//	border-style: solid;
+//	border-color: white;
+	border: 2px solid white;
+	margin: 0;
+	padding: 1px 5px;
+}
+
+#menu_msgs dd a:hover {
+  background-color: #eaeaea;  /*#CACACA;*/
+  padding: 0 0 0 0;
+}
+
+#menu_msgs dd a:link, dd a:visited
+{
+     display: block;
+     text-decoration: none;
+}
+#menu_msgs dd.active {
+	font-weight: bold;
+}

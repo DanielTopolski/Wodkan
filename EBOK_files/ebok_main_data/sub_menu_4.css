@@ -1,0 +1,331 @@
+
+		  /* Plik css wygenerowany automatycznie dla systemow EBOK/EBOP 2019-08-01 12:45:09 - Panel administracyjny */
+      /* ------------------------CZĘŚĆ-GÓRNA-MENU------------------------ */
+
+	  /* usunięcie domyślnych właściwości CSS z elementów - ol - oraz - ul */
+      #odczyt, #odczyt ul, #odczyt ol {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+      }
+
+      /* wygląd głównego elementu - ol */
+      ol#odczyt {
+        background-color: #cae4ff; /*#F8EBDE;*/
+        font-size:0.96vw;
+        height:2em;
+        line-height:2em;
+        text-align:center;
+		    width:99,7%;
+        border: 2px solid white;
+        Z-INDEX: 6;
+      }
+
+      /* wygląd wszystkich elementów - a - znajdujących się w elemencie - ol */
+      ol#odczyt a {
+        display:block;
+        text-decoration:none;
+        color: #000000; /*#000000;*/
+        padding:0 3%;
+        border-right: 0; /* 2px solid white; */
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol */
+      ol#odczyt > li {
+        float:left;
+        width:20%;
+        margin-left:1px;
+        background-color: #cae4ff; /*#F8EBDE;*/
+        height:2em;
+      }
+
+      /* wygląd elementu - li - pierwszego dziecka elementu - ol */
+      ol#odczyt > li:first-child {
+        margin-left:0px;
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol#odczyt > li:hover {
+        background-color: #5badff;  /*#EFD2B6;*/
+        box-shadow: 5px 5px 10px;
+      }
+
+      /* wygląd elementu - a - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+     ol#odczyt > li:hover > a {
+        color: #ffffff;  /*black;*/
+        font-weight: bold;
+      }
+
+      /* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol#odczyt > li:hover > ul {
+        display:block;
+      }
+
+     /* ------------------------CZĘŚĆ-ROZWIJANA-MENU-POZIOM-1----------------------- */
+
+      /* wygląd głównych rozwijanych elementów - ul */
+      ol#odczyt > li > ul {
+        display:none;
+		    width:100%;
+		    text-align: left;
+		    Z-INDEX: 4;
+      }
+
+      /* wygląd elementu - li - w części rozwijanej */
+      ol#odczyt > li > ul > li {
+        position:relative;
+        background-color: #f3f3f3; /*#E2E2E2;*/
+		    width:100%;
+		    box-shadow: 10px 10px 5px gray;
+      }
+
+      /* wygląd elementu - li - w części rozwijanej, po najechaniu kursorem myszki na dany element - li */
+      ol#odczyt > li > ul > li:hover {
+        background-color: #eaeaea;  /*#CACACA;*/
+        display:block;
+      }
+
+      /* wygląd elementu - a - w części rozwijanej, po najechaniu kursorem myszki na element - li */
+      ol#odczyt > li > ul > li:hover > a {
+        color: #000080;   /*gray;*/
+      }
+
+  /* ------------------------CZĘŚĆ-ROZWIJANA-MENU-POZIOM-2----------------------- */
+
+      /* wygląd głównego elementu - ol - w drugiej części rozwijanej */
+      #odczyt > li > ul > li > ol {
+        display:none;
+        width:100%;
+        position:absolute;
+        left:100%;
+        margin-top:-2em;
+      }
+
+      /* wygląd głównego elementu - ol - w drugiej części rozwijanej, po najechaniu kursorem myszki na jego rodzica - li */
+      #odczyt > li > ul > li:hover > ol {
+        display:block;
+      }
+
+      /* wygląd elementów - li - w drugiej części rozwijanej */
+      #odczyt > li > ul > li > ol > li {
+        background-color: #E1FFFF; /*#E1FFFF;*/
+		    color: #0000FF;
+		    width:100%;
+		    box-shadow: 7px 7px 5px gray;
+      }
+
+      /* wygląd elementu - a - w drugiej części rozwijanej, po najechaniu kursorem myszki */
+      #odczyt > li > ul > li > ol > li > a:hover {
+        color: #000000;
+		    background-color:#add8e6;  /*lightblue - #add8e6;*/
+      }
+
+	  /* umowa submenu */
+
+	  	  /* usuniÄcie domyĹlnych wĹaĹciwoĹci CSS z elementĂłw - ol - oraz - ul */
+      #umowa, #umowa ul, #umowa ol {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+      }
+
+      /* wyglÄd gĹĂłwnego elementu - ol */
+      ol#umowa {
+        background-color:#cae4ff; /*#F8EBDE;*/
+        font-size:0.96vw;
+        height:2em;
+        line-height:2em;
+        text-align:center;
+		    width:99,7%;
+        border: 2px solid white;
+        Z-INDEX: 6;
+      }
+
+      /* wyglÄd wszystkich elementĂłw - a - znajdujÄcych siÄ w elemencie - ol */
+      ol#umowa a {
+        display:block;
+        text-decoration:none;
+        color:#000000; /*#000000;*/
+        padding:0 3%;
+        border-right: 0; /* 2px solid white; */
+      }
+
+      /* wyglÄd elementĂłw - li - wszystkich dzieci elementu - ol */
+      ol#umowa > li {
+        float:left;
+        width:100%;
+        margin-left:1px;
+        background-color: #cae4ff; /*#F8EBDE;*/
+        height:2em;
+      }
+
+      /* wyglÄd elementu - li - pierwszego dziecka elementu - ol */
+      ol#umowa > li:first-child {
+        margin-left:0px;
+      }
+
+      /* wyglÄd elementĂłw - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol#umowa > li:hover {
+        background-color: #5badff;  /*#EFD2B6;*/
+        box-shadow: 5px 5px 10px;
+      }
+
+      /* wyglÄd elementu - a - dziecka elementu - li - bÄdÄcego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+     ol#umowa > li:hover > a {
+        color:#ffffff;  /*black;*/
+        font-weight: bold;
+      }
+
+      /* wyglÄd elementu - ul - dziecka elementu - li - bÄdÄcego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol#umowa > li:hover > ul {
+        display:block;
+      }
+
+     /* ------------------------CZÄĹÄ-ROZWIJANA-MENU-POZIOM-1----------------------- */
+
+      /* wyglÄd gĹĂłwnych rozwijanych elementĂłw - ul */
+      ol#umowa > li > ul {
+        display:none;
+		    width:100%;
+		    text-align: left;
+		    Z-INDEX: 4;
+      }
+
+      /* wyglÄd elementu - li - w czÄĹci rozwijanej */
+      ol#umowa > li > ul > li {
+        position:relative;
+        background-color:#f3f3f3; /*#E2E2E2;*/
+		    width:100%;
+		    box-shadow: 10px 10px 5px gray;
+      }
+
+      /* wyglÄd elementu - li - w czÄĹci rozwijanej, po najechaniu kursorem myszki na dany element - li */
+      ol#umowa > li > ul > li:hover {
+        background-color:#eaeaea;  /*#CACACA;*/
+        display:block;
+      }
+
+      /* wyglÄd elementu - a - w czÄĹci rozwijanej, po najechaniu kursorem myszki na element - li */
+      ol#umowa > li > ul > li:hover > a {
+        color: #000080;   /*gray;*/
+      }
+
+      /* faktura submenu */
+
+      /* ------------------------CZĘŚĆ-GÓRNA-MENU------------------------ */
+
+      /* usunięcie domyślnych właściwości CSS z elementów - ol - oraz - ul */
+      #faktura, #faktura ul, #faktura ol {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+      }
+
+      /* wygląd głównego elementu - ol */
+      #faktura {
+        background-color:#cae4ff;
+        font-size:0.96vw;
+        height:2em;
+        line-height:2em;
+        text-align:center;
+        border: 2px solid white;
+		    width:99,7%;
+      }
+
+      /* wygląd wszystkich elementów - a - znajdujących się w elemencie - ol */
+      #faktura a {
+        display:block;
+        text-decoration:none;
+        color: #000000; /*#000000;*/
+        padding:0 3%;
+		    border-right: 2px solid white; /* 2px solid white; */
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol */
+      #faktura > li {
+        float:left;
+        width:25%;
+        margin-left:1px;
+        background-color: #cae4ff; /*#EFD2B6*/
+        height:2em;
+      }
+
+      /* wygląd elementu - li - pierwszego dziecka elementu - ol */
+      #faktura > li:first-child {
+        margin-left:0;
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+      #faktura > li:hover {
+        background-color: #5badff;  /*#EFD2B6;*/
+		box-shadow: 5px 5px 10px;
+      }
+
+      /* wygląd elementu - a - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      #faktura > li:hover > a {
+        color: #ffffff;  /*gray;*/
+		    box-shadow: 5px 5px 10px;
+      }
+
+      /* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      #faktura > li:hover > ul {
+        display:block;
+      }
+
+      /* ------------------------CZĘŚĆ-ROZWIJANA-MENU-POZIOM-1----------------------- */
+
+      /* wygląd głównych rozwijanych elementów - ul */
+      #faktura > li > ul {
+        display:none;
+		width:100%;
+		text-align: left;
+      }
+
+      /* wygląd elementu - li - w części rozwijanej */
+      #faktura > li > ul > li {
+        position:relative;
+        background-color: #f3f3f3; /*#E2E2E2;*/
+		    box-shadow: 10px 10px 5px gray;
+      }
+
+      /* wygląd elementu - li - w części rozwijanej, po najechaniu kursorem myszki na dany element - li */
+      #faktura > li > ul > li:hover {
+        background-color: #eaeaea;  /*#CACACA;*/
+		    display:block;
+      }
+
+      /* wygląd elementu - a - w części rozwijanej, po najechaniu kursorem myszki na element - li */
+      #faktura > li > ul > li:hover > a {
+        color:  #000080;   /*gray;*/
+      }
+
+      /* ------------------------CZĘŚĆ-ROZWIJANA-MENU-POZIOM-2----------------------- */
+
+      /* wygląd głównego elementu - ol - w drugiej części rozwijanej */
+      #faktura > li > ul > li > ol {
+        display:none;
+        width:100%;
+        position:absolute;
+        left:100%;
+        margin-top:-2em;
+      }
+
+      /* wygląd głównego elementu - ol - w drugiej części rozwijanej, po najechaniu kursorem myszki na jego rodzica - li */
+      #faktura > li > ul > li:hover > ol {
+        display:block;
+      }
+
+      /* wygląd elementów - li - w drugiej części rozwijanej */
+      #faktura > li > ul > li > ol > li {
+        background-color: #E1FFFF; /*#E1FFFF;*/
+        color: #0000FF;
+		    width:100%;
+		    box-shadow: 7px 7px 5px gray;
+      }
+
+      /* wygląd elementu - a - w drugiej części rozwijanej, po najechaniu kursorem myszki */
+      #faktura > li > ul > li > ol > li > a:hover {
+        color:  #000000;   /*white*/
+		    background-color: #add8e6;  /*lightblue - #add8e6;*/
+      }
+

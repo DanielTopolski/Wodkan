@@ -1,0 +1,326 @@
+a {
+ color: black;
+ text-decoration: none;
+}
+.incheckbox
+{
+	width: 20px;
+	height: 20px;
+}
+#day_head
+{
+	color: blue;
+	padding: 5px;
+	z-index: 15;
+}
+#day_head:hover {
+color: white;
+background-color: #AAD5FF;  /* light blue */
+box-shadow: 5px 5px 10px white;
+}
+#day_head1
+{
+	color: blue;
+	padding: 5px;
+	z-index: 15;
+}
+#day_head1:hover {
+color: white;
+background-color: white;  /* light blue */
+box-shadow: 5px 5px 10px black;
+}
+.day_head2
+{
+	color: blue;
+	padding: 5px;
+	z-index: 15;
+}
+.day_head2:hover 
+{
+	color: black;
+	background-color: white;  /* light blue */
+	box-shadow: 5px 5px 10px black;
+}
+#info_msg 
+{
+	display: block; 
+	position: absolute; 
+	left: 10%; 
+	top: 7%; 
+	width: 80%; 
+	height: 80%; 
+	Z-INDEX: 12;
+	background-color: blue;
+	border: 3px solid #949494; 
+	box-shadow: 10px 10px 10px;
+}
+body
+{
+	font-family: Verdana, Geneva, Sans-Serif;
+	font-size: 1.2vw; /*10pt*/
+	color: black;  /*//gray #7A7A7A*/
+}
+
+td.normal
+{
+	color: #000000;
+}
+
+td
+{
+	font-size: 0.96vw;
+}
+
+td.col1
+{
+	display:none;
+}
+
+div.title
+{
+	width: auto;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+td.titletext
+{
+	font-size: 3.0em; /*26pt*/
+	text-align:  center;
+}
+
+td.titletext_name
+{
+	font-size: 1.8em; /*26pt*/
+	text-align:  center;
+}
+
+td.titletext_log
+{
+	font-size: 2.5em; /*26pt*/
+	text-align:  center;
+}
+
+td.titlecal
+{
+	font-size: 0.87vw;  /*9pt*/
+/*	padding: 5px;*/
+	text-align:  left;
+/*	padding-left: 89px;*/
+}
+
+td.titlelogin
+{
+	font-size: 0.87vw;
+	margin-top: 10px;
+	padding: 5px;
+	padding-right: 10px;
+	text-align:  right;
+}
+
+td.titlelogin > a:hover {
+color: blue;
+background-color: lightgreen;
+}
+
+td.msg > a {
+	font-size: 1.0vw;
+	color: #FF0000;
+	background-color: lightgreen;
+}
+
+td.logo
+{
+	padding: 0.1%;
+	text-align: center;
+}
+td.sel_menu
+{
+	color: #7A7A7A;
+	font-size: 1.0vw;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 15px;
+	text-align: left;
+	font-weight: bold;
+}
+
+td.star_sign
+{
+	color: #FF0000;
+}
+
+
+td.button:hover {
+	color: white;
+	background-color: #E1FFFF;
+}
+
+td.sel_path
+{
+	font-size: 0.87vw;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	text-align: left;
+}
+
+td.sel_path > a:hover {
+color: black;
+background-color: lightblue;
+}
+
+td.content
+{
+	font-size: 0.96vw;
+	color: gray;
+	padding-top: 0%;
+	padding-bottom:0;
+	padding-left: 0%;
+	text-align: center;
+}
+
+td#navigation
+{
+	width: 12%;
+}
+
+td.footer
+{
+	margin-top: 15px;
+	/*border-top: solid 1px #DFD3C6;*/
+	padding: 0px;
+	font-size: 8pt;
+	text-align: center;
+	width: 100%;
+}
+
+td.footer_ver
+{
+	margin-top: 1px;
+//	border-top: solid 1px #DFD3C6;
+	padding-left: 45px;
+	font-size: 9pt;
+	text-align: center;
+}
+
+td.footer_ver a:hover {
+	color: black;
+	background-color: lightblue;
+}
+
+td.footer a:hover {
+	color: lightblack;
+	background-color: #E1FFFF;
+}
+
+td#reset_pas
+{
+	margin-top: 10px;
+	padding: 15px;
+	font-size: 10pt;
+	text-align: left;
+}
+
+td#reset_pas a:hover {
+	color: blue;
+	background-color: #E1FFFF;
+}
+
+td#pol_priv
+{
+	margin-top: 10px;
+	padding: 15px;
+	font-size: 10pt;
+	text-align: right;
+}
+
+td#pol_priv a:hover {
+	color: blue;
+	background-color: #E1FFFF;
+}
+
+div#gconf_msg
+{
+  display: block;
+  position: absolute;
+  left: 37%; 
+  top: 40%;
+  width: 35%;
+  height: 13.5%;
+  z-index: 4;
+}
+
+div#head_visible
+{
+	display: none;
+	z-index: 11;
+}
+#tytan_lab
+{
+	font-size: 1vw;
+	color: red;
+	font-weight: bold;
+	padding-bottom: 5px;
+	padding-left: 7px;
+	text-align: center;
+}
+
+div#forg_log
+{
+	display: none;
+}
+
+div#get_data
+{
+  display: none;
+}
+
+table.content_borw_aw
+{
+  width:100%;
+  height: 15%;
+//  text-align: center;
+//  background-color: #f3e6d6;
+  margin-top: 0;
+//  border: solid 1px white;
+}
+
+table#get_invb_int_table
+{
+  background-color: #FFFFFF;
+  display: block;
+  position: absolute;
+  font-size: 0.87vw;
+  TOP: 10vh; 
+  LEFT: 0; 
+  width: 100%; 
+  z-index: 13;
+  border: solid 1px gray;
+  box-shadow: 10px 10px 10px
+}
+table#get_invb_in_table
+{
+  background-color: #FFFFFF;
+  display: block;
+  position: absolute;
+  font-size: 0.87vw;
+  left: 25%;
+  top: 5%;
+  width: 62%;
+  z-index: 13;
+  border: solid 1px gray;
+  box-shadow: 10px 10px 10px
+}
+table#get_invb_iw_table
+{
+  background-color: #FFFFFF;
+  display: block;
+  position: absolute;
+  font-size: 0.87vw;
+  left: 25%;
+  top: 5%;
+  width: 62%;
+  z-index: 13;
+  border: solid 1px gray;
+  box-shadow: 10px 10px 10px
+}

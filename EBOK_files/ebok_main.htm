@@ -1,0 +1,1261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//PL" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" data-uw-w-loader=""><head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="ebok_main_data/common.js"></script>
+<script type="text/javascript" src="ebok_main_data/uw_da.js"></script>
+<script type="text/javascript" src="ebok_main_data/calendar.js"></script>
+<script type="text/javascript" src="ebok_main_data/calendar-en.js"></script>
+<script type="text/javascript" src="ebok_main_data/calendar-setup.js"></script>
+<script type="text/javascript" src="ebok_main_data/awa_func.js"></script>
+<script type="text/javascript" src="ebok_main_data/msgs_func_1.js"></script>
+<script type="text/javascript" src="ebok_main_data/ebok_chud.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="ebok_main_data/calendar-win2k-2.css">
+<link rel="stylesheet" href="ebok_main_data/ebok_main.css">
+<link rel="stylesheet" href="ebok_main_data/menu_4.css">
+<link rel="stylesheet" href="ebok_main_data/sub_menu_4.css">
+<link rel="stylesheet" href="ebok_main_data/table_4.css">
+<link rel="stylesheet" href="ebok_main_data/spinner.css">
+<link rel="stylesheet" href="ebok_main_data/small_spinner.css">
+<link rel="stylesheet" href="ebok_main_data/bootstrap.min.css">
+  <link rel="stylesheet" href="ebok_main_data/Mega-Menu-Dropdown-100-Editable---Ambrodu.css">
+  <link rel="stylesheet" href="ebok_main_data/MyModalColumn.css">
+
+<style>
+#img_br
+{
+	background-color: white;
+}
+
+#img_br:hover
+{
+	border:1px solid black;	
+	box-shadow: 5px 5px 5px gray;
+}
+
+/* ]]> */
+
+textarea
+{
+  border:1px solid #999999;
+  width:99%;
+  margin:5px 0;
+  padding:3px;
+}
+
+td.boxheader
+{
+	background-color: #cae4ff;
+	border:  solid 1px #000000;
+	font-size: 0.96vw;
+	height:2.34em;
+	text-align:center;
+	padding:0 4%;
+}
+
+td.boxcontent
+{
+	border-left: solid 1px white;
+	border-right: solid 1px white;
+	border-bottom: solid 1px white;
+	padding: 6px;
+}
+
+td.navlink
+{
+	font-size: 0.96vw;
+	padding: 5px 2px;
+}
+
+.panel_info 
+{
+	width: 100%; 
+	height: 100%; 
+	Z-INDEX: 20;
+	color: #0000ff;
+	font-size: 1.5vw;
+	font-weight: bold;
+	align: center;
+	background-color: #f3f3f3;
+	border: 4px solid #949494; 
+	box-shadow: 10px 10px 10px black;
+}
+
+.div_panel_info 
+{
+	width: 100%; 
+	height: 100%;
+	font-size: 1.5vw;
+	Z-INDEX: 21;
+	border: 1px solid white;
+}
+
+td#left_sub_head
+{
+	font-size: 0.92vw;
+	color: #7a7a7a;
+	font-weight: bold;
+}
+
+      /* usunięcie domyślnych właściwości CSS z elementów - ol - oraz - ul */
+      ol#wide {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+      }
+
+      /* wygląd głównego elementu - ol */
+      ol#wide {
+        background-color: #ffffff; /*#F8EBDE;*/ 
+        font-size:0.96vw;
+        height:2em;
+        line-height:1.8em;
+        text-align:center;
+		width:98,7%;
+        z-index: 5;
+      }
+
+      /* wygląd wszystkich elementów - a - znajdujących się w elemencie - ol */
+      ol#wide a {
+        display:block;
+        text-decoration:none;
+        color: #000000; /*#000;*/
+        padding:0 2%;
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol */
+      ol#wide > li {
+        float:left;
+        width:100%;
+        margin-left:2px;
+        background-color: ; /*#FFFFFF;*/
+        height:2em;
+        z-index: 6;
+      }
+
+      /* wygląd elementu - li - pierwszego dziecka elementu - ol */
+      ol#wide > li:first-child {
+        margin-left:0;
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol#wide > li:hover {
+        background-color: #000080; /*#51A8FF; */ /*#AAD5FF;  light blue */
+		    box-shadow: 5px 5px 5px gray;
+//		    border-top:2px solid white;
+//		    border-left:2px solid white;
+		    z-index: 7;
+      }
+
+      /* wygląd elementu - a - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol#wide > li:hover > a {
+        color: #ffffff; /*white;*/
+      }
+
+      /* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol#wide > li:hover > ul {
+        display:block;
+      }
+
+
+ol#wide .browse 
+{
+        background-image:url("images/lupa2.png");
+        background-repeat:no-repeat;
+        background-position: 5% 100% top right;
+		    background-size: 10% 60%;
+		z-index: 5;
+}
+
+ol#wide .browse:hover 
+{
+        background-image:url("images/lupa8.png");
+        background-repeat:no-repeat;
+        background-position: 5% 100% top right;
+		    background-size: 25% 90%;
+		box-shadow: 5px 5px 5px gray;
+		z-index: 7;
+}
+ol#wide .browse1
+{
+	background-image:url("images/lupa2.png");
+	background-repeat:no-repeat;
+	background-position:50% center;
+	text-indent:-9999px;
+	background-size: 30% 70%;
+	z-index: 5;
+}
+
+ol#wide .browse1:hover
+{
+	background-image:url("images/lupa8.png");
+	background-repeat:no-repeat;
+	background-position:50% center;
+	text-indent:-9999px;
+	background-size: 50% 100%;
+	box-shadow: 5px 5px 5px gray;
+	z-index: 7;
+}
+
+ol#wide .browse2
+{
+	background-image:url("images/odcz1.png");
+	background-repeat:no-repeat;
+	background-position:50% center;
+	text-indent:-9999px;
+	background-size: 25% 100%;
+	z-index: 5;
+}
+
+ol#wide .browse2:hover
+{
+	background-image:url("images/odcz2.png");
+	background-repeat:no-repeat;
+	background-position:50% center;
+	text-indent:-9999px;
+	background-size: 25% 100%;
+	box-shadow: 5px 5px 5px gray;
+	z-index: 7;
+}
+
+ol#wide .browse3
+{
+	background-image:url("images/adobe-logo.red-tag.78x128_4.png");
+	background-repeat:no-repeat;
+	background-position:50% center;
+	text-indent:-9999px;
+	background-size: cover;
+	background-color: blue;
+//	background-size: 15px 22px;
+	 z-index: 8;
+}
+
+ol#wide .browse3:hover
+{
+	background-image:url("images/adobe-logo.red-tag.78x128_5.png");
+	background-repeat:no-repeat;
+	background-position:50% center;
+	text-indent:-9999px;
+	background-size: 28% 100% ;
+//	background-size: 22px 33px;
+	box-shadow: 5px 5px 5px gray;
+	z-index: 8;
+}
+
+.browse4
+{
+	background-image:url("images/delete_icon2.png");
+	background-repeat:no-repeat;
+	background-position:50% center;
+	text-indent:-9999px;
+	background-size: 25px 25px;
+	z-index: 5;
+}
+
+.browse4:hover
+{
+	background-image:url("images/delete_icon2_1.png");
+	background-repeat:no-repeat;
+	background-position:50% center;
+	text-indent:-9999px;
+	background-size: 25px 25px;
+	box-shadow: 5px 5px 5px gray;
+	z-index: 7;
+}
+     /* ------------------------CZĘŚĆ-GÓRNA-MENU------------------------ */
+
+      /* usunięcie domyślnych właściwości CSS z elementów - ol - oraz - ul */
+      ol#nstatus, #nstatus ul, #nstatus ol {
+        list-style-type:none;
+        padding:0;
+        margin:0;
+      }
+
+      /* wygląd głównego elementu - ol */
+      ol#nstatus {
+        /*background-color:#F8EBDE;*/
+        font-size:0.96vw;
+        height:2em;
+        line-height:2em;
+        text-align:center;
+		    border:2px solid white;
+		    width:100px;
+      }
+
+      /* wygląd wszystkich elementów - a - znajdujących się w elemencie - ol */
+      ol#nstatus a {
+        display:block;
+        text-decoration:none;
+        padding:0 5px;
+		    border-right:2px solid white;
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol */
+      ol#nstatus > li {
+        float:left;
+        width:150px;
+        margin-left:1px;
+        background-color:#ffffff; /*#F8EBDE;*/
+        height:2em;
+      }
+
+      /* wygląd elementu - li - pierwszego dziecka elementu - ol */
+      ol#nstatus > li:first-child {
+        margin-left:0;
+      }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol#nstatus > li:hover {
+        background-color: #5badff; /*#EFD2B6;*/
+		box-shadow: 5px 5px 10px;
+      }
+
+      /* wygląd elementu - a - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol#nstatus > li:hover > a {
+        color: ; /*white;*/
+      }
+
+      /* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+      ol#nstatus > li:hover > ul {
+        display:block;
+      }
+
+      /* ------------------------CZĘŚĆ-ROZWIJANA-MENU-POZIOM-1----------------------- */
+
+      /* wygląd głównych rozwijanych elementów - ul */
+      ol#nstatus > li > ul {
+        display:none;
+		    width:150%;
+		    text-align: left;
+		    box-shadow: 20px 20px 50px;
+      }
+
+      /* wygląd elementu - li - w części rozwijanej */
+      ol#nstatus > li > ul > li {
+        position:relative;
+        background-color: #f3f3f3; /*#E2E2E2;*/
+      }
+
+      /* wygląd elementu - li - w części rozwijanej, po najechaniu kursorem myszki na dany element - li */
+      ol#nstatus > li > ul > li:hover {
+        background-color: #eaeaea; /*#CACACA;*/
+		    display:block;
+		    box-shadow: 20px 20px 50px;
+      }
+
+      /* wygląd elementu - a - w części rozwijanej, po najechaniu kursorem myszki na element - li */
+      ol#nstatus > li > ul > li:hover > a {
+        color: #000080; /*white;*/
+      }
+
+      /* ------------------------WSPÓLNE----------------------- */
+
+      /* zaokrąglone rogi wszystkich elementów - li - oraz - a */
+      #nstatus li, ol a {
+        border-radius:2px;
+      }
+
+      /* strzałka w prawo */
+      #nstatus .dol {
+        background-image:url('images/down.png');
+        background-repeat:no-repeat;
+        background-position:98% center;
+      }
+
+      /* strzałka w dół */
+      #nstatus .prawo {
+        background-image:url('images/right.png');
+        background-repeat:no-repeat;
+        background-position:98% center;
+      }
+
+
+</style>
+	<script src="ebok_main_data/bootstrap.min.js"></script>
+	<script src="ebok_main_data/jquery.min.js"></script>
+	<script type="text/javascript" src="ebok_main_data/common.js"></script>
+<script>
+function check_T()
+{
+  var interval = setInterval(function() {
+  var name = "TimeT" + "=";
+  var ca = document.cookie.split(';');
+  var diffT = null;
+  for(var i = 0; i < ca.length; i++)
+  {
+    var c = ca[i];
+    while (c.charAt(0) == ' ')
+    {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0)
+    {
+      var ct =1;
+	  var d = new Date();
+      var diffT = c.substring(name.length, c.length)*1000 - d.getTime();
+	  if(diffT > 0 && diffT <= 20000)
+	  {
+		alert("Pozostało: "+(diffT/1000)+" sekund");
+	  }
+    }
+  }
+  if(diffT <= 0)
+  {
+	  clearInterval(interval);
+	  location.replace("ebok_main.php?page=logout&r=1");
+	  return true;
+  }
+ }, 60000);
+}
+</script>
+<script>
+	function show_dat(i,j)
+	{
+//			alert("CLIK"+i);
+			var title = $('.mod_title'+i).val();
+//			var page = $('.mod_page'+i).val();
+//				alert("Title: "+title);
+			$('#sel_modal_title').html(title);
+			$('#body_sel_page_id').html('');
+			$('#get_dat_st').css({ display: "block" });
+//				document.getElementById('get_dat_st').style.display = 'block';
+			var mod_link = $('.mod_link'+i).val();
+			var mod_id = $('.mod_id'+i).val();
+//			var pg = $('.mod_pg'+i).val();
+			var mod_op = null;
+			if($('.mod_op'+i).val() == 1)
+			{
+				var mod_op = 1;
+			}
+//			alert("MOD_idf: "+mod_id);
+			$('.mymodal').hide();
+			$.post(mod_link, 
+			   {
+				  opt: mod_op,
+				  fid: mod_id
+			   },   
+			   function(data, status)
+			   {
+//					alert("Data: " + data + "\nStatus: " + status);
+				$("#get_dat_st").css({ display: "none" });
+//					document.getElementById('get_dat_st').style.display = 'none';
+				if(j)
+				{
+					var d = data.split("<");
+//					alert("Data: "+d[0]);
+					$('#body_sel_page_id').html('<iframe class="embed-responsive-item" src="tmp1/'+d[0]+'" style="border: 0; width: 100%; valign:top; height: 100%;" allowfullscreen=""></iframe>');
+				}
+				else
+				{
+					$('#body_sel_page_id').html(data);
+				}
+//					$('.mymodal').show();
+				$('.mymodal').modal({backdrop: 'static', keyboard: false});
+				$('.mymodal').modal('show');
+			});
+			return false;
+	}
+</script>
+<script type="text/javascript">
+<!--
+function show_doc()
+{
+		wn_ref=window.open("http://www.wodociagi.tarnobrzeg.pl/index.php?option=com_content&view=article&id=718&Itemid=333", "PrivPolicy", "location='_blank', modal=yes, alwaysRaised=yes, left=250, top=10, width=800, height=650");
+		wn_ref.focus();
+	return false;
+}
+function hours_change()
+{
+	var viz = document.getElementById('work_hours').style.display;
+//	alert("viz="+viz);
+	if(viz == 'none')
+	{
+		document.getElementById('work_hours').style.display = 'block'
+	}
+	else
+	{
+		document.getElementById('work_hours').style.display = 'none'
+	}
+}
+	function show_priv_policy()
+	{
+		wn_ref=window.open("inc_ebok_sel_priv_polis.php", "PrivPolicy", "location='_blank', modal=yes, alwaysRaised=yes, left=250, top=10, width=800, height=650");
+		wn_ref.focus();
+		return(false);
+	}
+	function show_info(il)
+	{
+		wn_ref=window.open(il, "PrivPolicy", "location='_blank', modal=yes, alwaysRaised=yes, left=250, top=10, width=800, height=650");
+		wn_ref.focus();
+		return(false);
+	}
+	function show_phpver()
+	{
+		wn1_ref=window.open("i.php", "PrivPolicy", "location='_blank', modal=yes, alwaysRaised=yes, left=530, top=300, width=250, height=100");
+		wn1_ref.focus();
+		return(false);
+	}	
+	function show_div()
+	{
+			document.getElementById("get_data").style.display = "block";
+			document.getElementById("EbokLoginMsg").value='';
+			return (true);
+	}
+	function show_pdf(f,z)
+	{
+		wn_ref=window.open("inc_ebok_invb_e.php?fid="+f+"&zw="+z, "Pomoc", "location='_blank', modal=yes, alwaysRaised=yes, left=250, top=10, width=800, height=650, scrollbars=yes");
+		wn_ref.focus();
+		return(false);
+	}
+	function show_regul_ebok()
+	{
+		wn_ref=window.open("inc_ebok_sel_regul_ebok.php", "RegulEBOK", "location='_blank', modal=yes, alwaysRaised=yes, left=250, top=10, width=800, height=640, scrollbars=yes");
+		wn_ref.focus();
+		return(false);
+	}
+-->  
+</script>
+<script type="text/javascript">
+<!--
+function Label1JSMouseOver(event)
+{
+
+var event = event || window.event;
+var params=null;
+       //Add your javascript code here
+             this->showHint();
+       
+}
+
+function show_help()
+{
+	wn_ref=window.open("inc_ebok_help.php", "Pomoc", "location='_blank', modal=yes, alwaysRaised=yes, left=250, top=10, width=800, height=650");
+	wn_ref.focus();
+	return(false);
+}
+
+-->
+</script>
+<script type="text/javascript">
+<!--
+
+function chk_size()
+{
+  if(1)
+  {
+	check_T();
+  }
+  if(1)
+  {
+	inabil();
+  }
+  var p = document.getElementById('p').innerHTML;
+  var ipp = document.getElementById('ipp').innerHTML;
+  if(p == 'login' && ipp == 1)
+  {
+	  var info_win_vis = document.getElementById('info_back').style.display;
+	  if(info_win_vis == 'block')
+	  {
+		document.getElementById('info_back').style.display = 'none';
+		document.getElementById('info_Label1').style.display = 'none';
+	  }
+  }
+  if (window.innerWidth && window.innerHeight) 
+  {
+		winW = window.innerWidth;
+		winH = window.innerHeight;
+  }
+	r = window.devicePixelRatio;
+	var max_W = screen.availWidth;
+	var max_H = screen.availHeight;
+	if(r > 1)
+	{
+		var INF_H = (0.76*winH)/(0.72*r);
+	}
+	else
+	{
+		var INF_H = (0.76*winH);
+	}
+	var iW = winW/max_W;
+	var iH = winH/max_H;
+	var i=Math.min(iW, iH);
+//	var W = 182*i/r;
+//	var H = 167.66929133858*i/r;
+	var W = 182*0.6;
+	var H = 167.66929133858*0.6;
+	var hsp_left = 160*iH/r+20;
+	document.getElementById('img_div').style.height = H+'px';
+	document.getElementById('img_div').style.width = W+'px';
+	document.getElementById('head_visible').style.top = hsp_left+"px";
+	if(p == 'login')
+	{
+		document.getElementById('info_Label1').style.height = INF_H+'px';
+		document.getElementById('info_msg_outer').style.height = INF_H+'px';
+		document.getElementById('obj_info').style.height = INF_H+'px';
+		if(info_win_vis == 'block')
+		{
+			document.getElementById('info_back').style.display = 'block';
+			document.getElementById('info_Label1').style.display = 'block';
+		}
+	}
+	return(false);
+}
+
+	function ebok_prog()
+	{
+		document.getElementById('get_dat_st').style.display = 'block';
+	}
+	function Myalert(msg)
+	{
+			document.getElementById("err_message").innerHTML = msg;
+			document.getElementById('err_com').style.display = 'block';
+			document.getElementById("range_to").selectedIndex = document.getElementById("range_from").selectedIndex;
+
+	}
+-->
+</script>
+<script src="prompt.js"></script><script src="prompt_002.js"></script><link href="ebok_main_data/widget_lazy.css" type="text/css" rel="stylesheet"><link href="ebok_main_data/widget_base.css" type="text/css" rel="stylesheet"><link type="text/css" rel="stylesheet" id="uw-stylesheet-udf" href="ebok_main_data/udf.css"></head>
+<body class="body" valign="top" href="javascript:void(0)" onload="chk_size(); return false;" onresize="chk_size(); return false;" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+<div class="uwy userway_p1" data-uw-feature-ignore="true" data-uw-rm-ignore="true" style="background-color: transparent !important; overflow: initial !important;" title="Menu dostępności"><div class="userway_buttons_wrapper"><div class="ulsti hidden userway_dark" id="userwayLstIcon" aria-label="Menu tłumaczeń" role="button" tabindex="0" aria-haspopup="dialog" data-uw-s19-ignore="" title="Menu tłumaczeń" style="background: rgb(72, 104, 182) !important;"><span class="uiiw"></span><div class="ups"><img width="43" height="43" data-uw-rm-ignore="" class="si_w" aria-hidden="true" alt="Spinner: White decorative" src="ebok_main_data/spin_wh.svg"></div><span class="usr lst-spacer"></span><img class="userway_check_on" data-uw-rm-ignore="" data-uw-ignore-s25="true" width="18" height="20" alt="Accessibility menu is on" src="ebok_main_data/check_on.svg"></div><div class="uai userway_dark" id="userwayAccessibilityIcon" aria-label="Menu dostępności" role="button" tabindex="0" aria-haspopup="dialog" title="Menu dostępności" style="background: rgb(72, 104, 182) !important;"><span class="uiiw"><img data-uw-rm-ignore="" class="ui_w" role="presentation" alt="" src="ebok_main_data/wheel_left_wh.svg"></span><div class="ups"><img width="43" height="43" data-uw-rm-ignore="" class="si_w" aria-hidden="true" alt="Spinner: White decorative" src="ebok_main_data/spin_wh.svg"></div><span class="usr"></span><img class="userway_check_on" data-uw-rm-ignore="" data-uw-ignore-s25="true" width="18" height="20" alt="Accessibility menu is on" src="ebok_main_data/check_on.svg"></div><div class="uwaw-dictionary-tooltip"></div></div><iframe class="uwif userway_p1" data-uw-ignore-translate="true" name="userway" title="UserWay Menu dostępności" allow="clipboard-write" style="max-width: 100vw !important; visibility: visible !important; opacity: 1 !important; color-scheme: light !important;" src="https://cdn.userway.org/widget/2026-04-14-10-40-20/pl/index.html?rand=1776335956333&amp;services=%7B%22siteId%22%3A994754%2C%22userId%22%3A76740%2C%22noManage%22%3Afalse%2C%22noLogo%22%3Afalse%2C%22paidAi%22%3Afalse%7D&amp;tunings=%7B%22widget_color_gradient%22%3Anull%2C%22widget_icon_size%22%3A%22small%22%2C%22widget_language%22%3A%22pl%22%2C%22widget_color%22%3A%22%234868B6%22%2C%22widget_icon_type%22%3A%222%22%2C%22widget_position%22%3A%221%22%2C%22widget_position_mobile%22%3A%222%22%2C%22widget_position_nudge%22%3A%7B%22moveY%22%3A0%2C%22moveX%22%3A0%7D%2C%22site_name%22%3A%22ebok.wodkan.pl%22%2C%22isLAUser%22%3Afalse%2C%22widget_no_report%22%3Atrue%2C%22new_dom_observer%22%3Atrue%2C%22new_color_feature%22%3Atrue%2C%22new_keyboard_nav%22%3Atrue%2C%22new_screen_reader_rem%22%3Atrue%2C%22widget_position_nudge_mobile%22%3Anull%7D&amp;language=%22pl%22&amp;account=%22hEoFNK3joV%22"></iframe></div><div class="uw-s10-bottom-ruler-guide"></div><div class="uw-s10-right-ruler-guide"></div><div class="uw-s10-left-ruler-guide"></div><div class="uw-s10-reading-guide"><div class="uw-s10-reading-guide__arrow"></div></div><div class="uw-s12-tooltip" aria-hidden="true"></div><table valign="top" border="0" cellspacing="0" cellpadding="0" width="100%" style="valign:top; width: 100%; align: center;  background-color: #F5F5F5;">
+	<tbody><tr valign="top">
+		<td valign="top">
+		 <div id="head_visible2" border="0" style="display: block;z-index: 1">
+		  <table valign="top" border="0" cellspacing="0" cellpadding="0" width="100%" style=" width: 100%;POSITION: fixed; left: 0; top: 0; align: center; background-color: #F5F5F5;  z-index:8;">
+		    <tbody><tr>
+			  <td>
+				<table valign="top" border="0" cellspacing="0" cellpadding="0" width="100%" align="center" style=" height=30em; width: 100%;POSITION: relative; align: center; background-color: #ffffff;; z-index:8; padding: 3px;">
+					<tbody><tr align="center">
+					   <td valign="center" align="center" width="14.7%" height="30em" class="logo">
+							<div id="Label2_outer">
+								<div title="Właściciel serwisu EBOK" id="Label1" onmouseover="return Label1JSMouseOver(event)">
+									<a align="center" href="http://www.wodociagi.tarnobrzeg.pl/" target="NEW"><div><img valign="center" id="img_div" width="0px" height="0px" src="ebok_main_data/tarnobrzeg_logo.png" style="height: 100.602px; width: 109.2px;"></div></a>
+								</div>
+							</div>
+
+						</td> 
+						<td width="60.3%">
+							<!-- title bar -->
+							<table valign="top" border="0" cellspacing="0" cellpadding="0" width="100%" style="color:#00008c">
+								<tbody><tr>
+									<td class="titletext" style="color:#00008c">
+										Elektroniczne Biuro Obsługi Klienta
+									</td>
+								</tr>
+								<tr>
+									<td class="titletext_name" style="color:#00008c">
+										Tarnobrzeskie Wodociągi Sp. z o.o.<br>
+									</td>
+								</tr>
+							</tbody></table>
+						</td>
+						<td valign="center" width="25%">
+							<table align="center" valign="top" border="0" cellspacing="0" cellpadding="0" width="100%" style="color:#00008c">
+								<tbody><tr align="left" width="100%">
+									<!-- Page titlecal -->
+									<td width="100%" class="titlelogin" style="text-align:  center;">
+										<a id="day_head" style="margin-right:2%;" href="javascript:void(0)" onclick="ebok_prog();document.location.href='ebok_main.php?page=logout&amp;zw=43';return false;">&nbsp;&nbsp;Wyloguj&nbsp;&nbsp;</a>
+									</td>								
+								</tr>
+								<tr>
+									<td align="left" width="100%" class="titlecal">
+										<div id="uname">
+											Zalogowany jako (39-04086)<br>TOPOLSKI DANIEL
+										</div>
+									</td>								
+								</tr>
+								<tr>
+									<td width="100%">
+										<div id="Label2_outer">
+											<div title="Status:
+Normalny - połączenie ze zdalną bazą danych
+Lokalny  - połączenie z kopią bazy danych
+Brak danych - brak połączenia z bazami danych
+			  lub brak kopii danych." id="Label1" onmouseover="return Label1JSMouseOver(event)">
+												Status:&nbsp;<a style="background-color:lightgreen">Normalny</a>	
+											</div>
+										</div>
+									</td>								
+								</tr>
+								<tr>
+									<td>&nbsp;</td>
+								</tr>
+								<tr>
+									<td width="100%" align="left" style="align: left; padding-top: 3px; padding-right: 5px;">
+										<div cellpadding="5px" id="Label2_outer"><div title="Dostawca systemu EBOK" id="Label1" onmouseover="return Label1JSMouseOver(event)">Pracujemy na oprogramowaniu <a id="tytan_lab" href="https://www.tytan.poznan.pl/" target="NEW">TYTAN&nbsp;SQL</a></div></div>
+									</td>
+								</tr>
+							</tbody></table>
+						</td>
+					</tr>
+				</tbody></table>
+			  </td>
+			 </tr>	
+			 <tr>
+				<td valign="top" width="100%">
+					<div id="head_visible1" style="display: block;">
+						<table valign="top" align="left" bgcolor="#F5F5F5" border="0" cellspacing="0" cellpadding="0" style="width:100%; padding-left:0.2%; padding-right:0.2%;z-index:12;">
+							<tbody><tr>
+								<td valign="top" class="content">
+												<div id="Ebok_menu_outer">
+
+
+ 
+  <title> new document </title>
+  <meta name="generator" content="editplus">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="ebok_main_data/menu_.css">
+  <style>
+</style>
+  <script type="text/javascript">
+<!--
+
+function show_help()
+{
+	wn_ref=window.open("user_manual.pdf", "Pomoc", "location='_blank', modal=yes, alwaysRaised=yes, left=250, top=10, width=800, height=630");
+	wn_ref.focus();
+	return(false);
+}
+
+-->
+</script>
+
+
+	
+		<ol id="menu" valign="top">
+        <li><a href="javascript:void(0)" onclick="document.getElementById('get_dat_st').style.display = 'block';document.location='ebok_main.php?page=home'">Start</a>
+	  <ul>
+		<li><a href="javascript:void(0)" onclick="document.getElementById('get_dat_st').style.display = 'block';document.location='ebok_main.php?page=home'">Strona główna</a></li>
+		<li><a href="javascript:void(0)" onclick="document.getElementById('get_dat_st').style.display = 'block';document.location='ebok_main.php?page=cud'">Dane klienta</a></li>
+		<li><a href="javascript:void(0)" onclick="document.getElementById('get_dat_st').style.display = 'block';document.location='ebok_main.php?page=pod'">Punkty usług</a></li>
+		<li><a href="javascript:void(0)" onclick="document.getElementById('get_dat_st').style.display = 'block';document.location='ebok_main.php?page=chud'">Zmiana danych</a></li>
+		<li><a href="javascript:void(0)" onclick="document.getElementById('get_dat_st').style.display = 'block';document.location='ebok_main.php?page=cp'">Zmiana hasła</a></li>
+		<li><a href="" javascript:void(0)"="" onclick="document.getElementById('get_dat_st').style.display = 'block';document.location='ebok_main.php?page=act'">Aktywności</a></li>
+	  </ul>
+	</li>
+
+	<li><a href="javascript:void(0)" onclick="document.getElementById('get_dat_st').style.display = 'block';document.location='ebok_main.php?page=odcz_h'">Odczyty</a>
+	  <ul>
+		<li><a href="javascript:void(0)" onclick="document.getElementById('get_dat_st').style.display = 'block';document.location='ebok_main.php?page=odcz_n'">Nowy odczyt</a></li>
+		<li><a href="javascript:void(0)" onclick="document.getElementById('get_dat_st').style.display = 'block';document.location='ebok_main.php?page=odcz_h'">Historia</a></li>
+	  </ul>
+	</li>
+
+	<li><a href="javascript:void(0)" onclick="document.getElementById('get_dat_st').style.display = 'block';document.location='ebok_main.php?page=bal'">Płatności</a>
+	  <ul>
+		<li><a href="javascript:void(0)" onclick="document.getElementById('get_dat_st').style.display = 'block';document.location='ebok_main.php?page=bal'">Saldo</a></li>
+		<li><a href="javascript:void(0)" onclick="document.getElementById('get_dat_st').style.display = 'block';document.location='ebok_main.php?page=acc'">Faktury nierozliczone</a></li>
+		<li><a href="javascript:void(0)" onclick="document.getElementById('get_dat_st').style.display = 'block';document.location='ebok_main.php?page=pay_d'">Wpłaty</a></li>
+		<li><a href="javascript:void(0)" onclick="document.getElementById('get_dat_st').style.display = 'block';document.location='ebok_main.php?page=arc'">Wszystkie faktury</a></li>
+	  </ul>
+	</li>
+
+	<li><a href="javascript:void(0)" onclick="document.getElementById('get_dat_st').style.display = 'block';document.location='ebok_main.php?page=agr'">e-Dokumenty</a>
+	  <ul>
+		<li><a href="javascript:void(0)" onclick="document.getElementById('nsup').style.display = 'block';return false;">Do pobrania</a></li>
+		<li><a href="javascript:void(0)" onclick="document.getElementById('get_dat_st').style.display = 'block';document.location='ebok_main.php?page=agr'">Umowy</a></li>
+	  </ul>
+	</li>
+		<li><a href="javascript:void(0)" onclick="document.getElementById('nsup').style.display = 'block';return false;">Komunikaty</a>
+	</li>
+	<li><a href="javascript:void(0)" onclick="document.getElementById('get_dat_st').style.display = 'block';document.location='ebok_main.php?page=con'">Kontakt</a></li>
+
+<li><a href="#">Statystyki</a>
+        	  <ul><li><a href="https://ebok.wodkan.pl/ebok_main.php?page=chart&amp;id=1&amp;t=Wskazania%20licznik%C3%B3w&amp;o=odcz_h">Wskazania liczników</a></li><li><a href="https://ebok.wodkan.pl/ebok_main.php?page=chart&amp;id=2&amp;t=Nale%C5%BCno%C5%9Bci&amp;o=odcz_h">Należności</a></li></ul></li><li><a href="javascript:void(0)" onclick="show_help();">Pomoc</a></li>
+         </ol>
+		
+
+
+</div>
+
+								</td>
+							</tr>
+						</tbody></table>
+					</div>
+				</td>
+			 </tr>
+		   </tbody></table>
+		  </div>
+		</td>
+	 </tr>
+	 <tr valign="top">
+	  <td align="left" width="99.8%" valign="top" style="padding-top: 2vh;">
+		<div id="main_panel_sp" style="z-index: 1; margin-top: 12em;">
+		  <table align="left" valign="top" border="0" width="100%" cellspacing="0" cellpadding="0" style="background-size: cover; background-color:#F5F5F5; z-index:5;margin-left:0.2%; margin-left:0.2%;">
+		   <tbody><tr valign="top">
+			<td valign="top" align="left" height="100%" style="margin-top: 2vh;">
+			   <table valign="top" width="100%" border="0" height="100%" bgcolor="#F5F5F5" align="right" cellpadding="0" cellspacing="0">
+				  <tbody><tr>
+						<td valign="top" class="sel_menu">
+							Historia odczytów
+						</td>
+				  </tr>
+				  <tr>
+					<td valign="top" class="sel_path">
+						<a href="https://ebok.wodkan.pl/ebok_main.php?page=home">Strona główna</a>-&gt;<a href="https://ebok.wodkan.pl/ebok_main.php?page=odcz_h">Odczyty</a>-&gt;<a href="https://ebok.wodkan.pl/ebok_main.php?page=odcz_h">Historia odczytów</a>
+					</td>
+				  </tr>
+				  <tr valign="top">
+					<td class="content" height="100%">
+					  <div valign="top">
+						      <!-- actual page content -->
+							<div id="EbokPageContent_outer">
+<form action="ebok_main.php" method="POST">
+<table border="0" width="100%" valign="top" cellspacing="0" cellpadding="0" style="width: 100%; align: left; padding-bottom: 3px;">
+	<tbody><tr class="head_row_2" style="width: 100%; align: left; padding-bottom: 5px;">
+		<td style="width: 100%; align: left; font-size: 1.0vw; padding-bottom: 8px; padding-top: 8px; border: solid 2px white;">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tbody><tr>
+					<td>
+						<a>Proszę wybrać z menu poniżej zakres prezentowanych odczytów: <br>wszystkie odczyty, dla wybranego punktu, dla wybranego licznika lub w/g stanu rozliczenia odczytu.</a>
+					</td>
+					<td width="100px" style="padding-right: 5px;">
+						<a style="color: blue;font-weight: bold;">Aktualne dane</a>
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+	<tr>
+		<td style="width: 100%; align: center;">
+		   <ol id="odczyt">
+                    <li><a href="https://ebok.wodkan.pl/ebok_main.php?page=odcz_hs">Punkty usług</a>
+                      <ul><li class="prawo"><a href="https://ebok.wodkan.pl/ebok_main.php?page=odcz_hs&amp;id=4127">Punkt:004-0860-00"&nbsp;</a><ol><li><a href="https://ebok.wodkan.pl/ebok_main.php?page=odcz_hs&amp;id=4127&amp;w=6294">Licznik:61451766&nbsp;</a></li></ol></li></ul></li><li><a href="https://ebok.wodkan.pl/ebok_main.php?page=odcz_hs">Stan&nbsp;rozliczenia</a>
+                    <ul>
+                      <li><a href="https://ebok.wodkan.pl/ebok_main.php?page=odcz_hs&amp;napp=W">Oczekujące</a></li>
+                      <li><a href="https://ebok.wodkan.pl/ebok_main.php?page=odcz_hs&amp;napp=R">Odrzucone</a></li>
+                      <li><a href="https://ebok.wodkan.pl/ebok_main.php?page=odcz_hs&amp;napp=A">Rozliczone</a></li>
+                      <li><a href="https://ebok.wodkan.pl/ebok_main.php?page=odcz_hs&amp;napp=NA">Nierozliczone</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="javascript:void(0)" onclick="document.getElementById('get_dat_st').style.display = 'block';location.href='ebok_main.php?page=odcz_hs';">Wszystkie&nbsp;odczyty&nbsp;</a></li>
+                  <li><a href="javascript:void(0)" onclick="document.getElementById('get_dat_st').style.display = 'block';location.href='ebok_main.php?page=odcz_ar'">Odczyty&nbsp;archiwalne&nbsp;</a></li></ol>
+		</td>
+	</tr>
+	<tr>
+		<td style="width: 100%; align: left; padding-top: 7px;">
+		   <a style="font-weight: bold; color: #7A7A7A; text-align: left;">Wszystkie odczyty. Wybrany kod punktu: Wszystkie, Wybrany nr licznika: Wszystkie </a><a style="color: blue; font-weight: bold;">od: 2025-04-16</a>
+		   <table valign="top" class="content_borb" cellspacing="0" cellpadding="3px">
+			 <tbody><tr class="header_tab">
+				<td class="tab_row_bor" valign="top" align="center" width="14%">
+					<a>Kod punktu usługi(odbiorcy)</a>
+				</td>
+				<td class="tab_row_bor" valign="top" align="center" width="20%">
+					<a>Nazwa punktu</a>
+				</td>
+				<td class="tab_row_bor" valign="top" align="center" width="14%">
+					<a>Nr&nbsp;licznika</a>
+				</td>
+				<td class="tab_row_bor" valign="top" align="center" width="8%">
+					<a>Status licznika</a>
+				</td>
+				<td class="tab_row_bor" valign="top" align="center" width="12%">
+					<a>Data odczytu</a>
+				</td>
+				<td class="tab_row_bor" valign="top" align="center" width="12%">
+					<a>Wskazanie - stan licznika</a>
+				</td>
+				<td class="tab_row_bor" valign="top" align="center" width="6%">
+					<a>Zużycie</a>
+				</td>
+				<td class="tab_row_bor" valign="top" align="center" width="10%">
+					<a>Stan rozliczenia</a>
+				</td>
+			</tr>
+			<tr align="center" height="100%" class="body">
+            <td class="tab_row_bor" align="center"><a>004-0860-00</a>
+					  </td>
+					  <td class="tab_row_bor"><a>TOPOLSKI DANIEL</a></td><td class="tab_row_bor" align="right"><a>61451766</a>
+					</td><td class="tab_row_bor" height="100%"><table width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Aktywny</td></tr></tbody></table></td><td class="tab_row_bor">2026-04-02</td>
+			  <td class="tab_row_bor" align="right">743</td>
+			  <td class="tab_row_bor" align="right">8</td><td class="tab_row_bor" width="100px" height="100%"><table border="0" valign="top" align="center" width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Rozliczony</td></tr></tbody></table></td></tr><tr align="center" height="100%" class="body">
+            <td class="tab_row_bor" align="center"><a>004-0860-00</a>
+					  </td>
+					  <td class="tab_row_bor"><a>TOPOLSKI DANIEL</a></td><td class="tab_row_bor" align="right"><a>61451766</a>
+					</td><td class="tab_row_bor" height="100%"><table width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Aktywny</td></tr></tbody></table></td><td class="tab_row_bor">2026-03-03</td>
+			  <td class="tab_row_bor" align="right">735</td>
+			  <td class="tab_row_bor" align="right">6</td><td class="tab_row_bor" width="100px" height="100%"><table border="0" valign="top" align="center" width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Rozliczony</td></tr></tbody></table></td></tr><tr align="center" height="100%" class="body">
+            <td class="tab_row_bor" align="center"><a>004-0860-00</a>
+					  </td>
+					  <td class="tab_row_bor"><a>TOPOLSKI DANIEL</a></td><td class="tab_row_bor" align="right"><a>61451766</a>
+					</td><td class="tab_row_bor" height="100%"><table width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Aktywny</td></tr></tbody></table></td><td class="tab_row_bor">2026-02-03</td>
+			  <td class="tab_row_bor" align="right">729</td>
+			  <td class="tab_row_bor" align="right">8</td><td class="tab_row_bor" width="100px" height="100%"><table border="0" valign="top" align="center" width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Rozliczony</td></tr></tbody></table></td></tr><tr align="center" height="100%" class="body">
+            <td class="tab_row_bor" align="center"><a>004-0860-00</a>
+					  </td>
+					  <td class="tab_row_bor"><a>TOPOLSKI DANIEL</a></td><td class="tab_row_bor" align="right"><a>61451766</a>
+					</td><td class="tab_row_bor" height="100%"><table width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Aktywny</td></tr></tbody></table></td><td class="tab_row_bor">2026-01-05</td>
+			  <td class="tab_row_bor" align="right">721</td>
+			  <td class="tab_row_bor" align="right">8</td><td class="tab_row_bor" width="100px" height="100%"><table border="0" valign="top" align="center" width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Rozliczony</td></tr></tbody></table></td></tr><tr align="center" height="100%" class="body">
+            <td class="tab_row_bor" align="center"><a>004-0860-00</a>
+					  </td>
+					  <td class="tab_row_bor"><a>TOPOLSKI DANIEL</a></td><td class="tab_row_bor" align="right"><a>61451766</a>
+					</td><td class="tab_row_bor" height="100%"><table width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Aktywny</td></tr></tbody></table></td><td class="tab_row_bor">2025-12-03</td>
+			  <td class="tab_row_bor" align="right">713</td>
+			  <td class="tab_row_bor" align="right">6</td><td class="tab_row_bor" width="100px" height="100%"><table border="0" valign="top" align="center" width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Rozliczony</td></tr></tbody></table></td></tr><tr align="center" height="100%" class="body">
+            <td class="tab_row_bor" align="center"><a>004-0860-00</a>
+					  </td>
+					  <td class="tab_row_bor"><a>TOPOLSKI DANIEL</a></td><td class="tab_row_bor" align="right"><a>61451766</a>
+					</td><td class="tab_row_bor" height="100%"><table width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Aktywny</td></tr></tbody></table></td><td class="tab_row_bor">2025-11-04</td>
+			  <td class="tab_row_bor" align="right">707</td>
+			  <td class="tab_row_bor" align="right">8</td><td class="tab_row_bor" width="100px" height="100%"><table border="0" valign="top" align="center" width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Rozliczony</td></tr></tbody></table></td></tr><tr align="center" height="100%" class="body">
+            <td class="tab_row_bor" align="center"><a>004-0860-00</a>
+					  </td>
+					  <td class="tab_row_bor"><a>TOPOLSKI DANIEL</a></td><td class="tab_row_bor" align="right"><a>61451766</a>
+					</td><td class="tab_row_bor" height="100%"><table width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Aktywny</td></tr></tbody></table></td><td class="tab_row_bor">2025-10-03</td>
+			  <td class="tab_row_bor" align="right">699</td>
+			  <td class="tab_row_bor" align="right">7</td><td class="tab_row_bor" width="100px" height="100%"><table border="0" valign="top" align="center" width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Rozliczony</td></tr></tbody></table></td></tr><tr align="center" height="100%" class="body">
+            <td class="tab_row_bor" align="center"><a>004-0860-00</a>
+					  </td>
+					  <td class="tab_row_bor"><a>TOPOLSKI DANIEL</a></td><td class="tab_row_bor" align="right"><a>61451766</a>
+					</td><td class="tab_row_bor" height="100%"><table width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Aktywny</td></tr></tbody></table></td><td class="tab_row_bor">2025-09-03</td>
+			  <td class="tab_row_bor" align="right">692</td>
+			  <td class="tab_row_bor" align="right">25</td><td class="tab_row_bor" width="100px" height="100%"><table border="0" valign="top" align="center" width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Rozliczony</td></tr></tbody></table></td></tr><tr align="center" height="100%" class="body">
+            <td class="tab_row_bor" align="center"><a>004-0860-00</a>
+					  </td>
+					  <td class="tab_row_bor"><a>TOPOLSKI DANIEL</a></td><td class="tab_row_bor" align="right"><a>61451766</a>
+					</td><td class="tab_row_bor" height="100%"><table width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Aktywny</td></tr></tbody></table></td><td class="tab_row_bor">2025-08-04</td>
+			  <td class="tab_row_bor" align="right">667</td>
+			  <td class="tab_row_bor" align="right">26</td><td class="tab_row_bor" width="100px" height="100%"><table border="0" valign="top" align="center" width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Rozliczony</td></tr></tbody></table></td></tr><tr align="center" height="100%" class="body">
+            <td class="tab_row_bor" align="center"><a>004-0860-00</a>
+					  </td>
+					  <td class="tab_row_bor"><a>TOPOLSKI DANIEL</a></td><td class="tab_row_bor" align="right"><a>61451766</a>
+					</td><td class="tab_row_bor" height="100%"><table width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Aktywny</td></tr></tbody></table></td><td class="tab_row_bor">2025-07-03</td>
+			  <td class="tab_row_bor" align="right">641</td>
+			  <td class="tab_row_bor" align="right">9</td><td class="tab_row_bor" width="100px" height="100%"><table border="0" valign="top" align="center" width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Rozliczony</td></tr></tbody></table></td></tr><tr align="center" height="100%" class="body">
+            <td class="tab_row_bor" align="center"><a>004-0860-00</a>
+					  </td>
+					  <td class="tab_row_bor"><a>TOPOLSKI DANIEL</a></td><td class="tab_row_bor" align="right"><a>61451766</a>
+					</td><td class="tab_row_bor" height="100%"><table width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Aktywny</td></tr></tbody></table></td><td class="tab_row_bor">2025-06-03</td>
+			  <td class="tab_row_bor" align="right">632</td>
+			  <td class="tab_row_bor" align="right">7</td><td class="tab_row_bor" width="100px" height="100%"><table border="0" valign="top" align="center" width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Rozliczony</td></tr></tbody></table></td></tr><tr align="center" height="100%" class="body">
+            <td class="tab_row_bor" align="center"><a>004-0860-00</a>
+					  </td>
+					  <td class="tab_row_bor"><a>TOPOLSKI DANIEL</a></td><td class="tab_row_bor" align="right"><a>61451766</a>
+					</td><td class="tab_row_bor" height="100%"><table width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Aktywny</td></tr></tbody></table></td><td class="tab_row_bor">2025-05-06</td>
+			  <td class="tab_row_bor" align="right">625</td>
+			  <td class="tab_row_bor" align="right">7</td><td class="tab_row_bor" width="100px" height="100%"><table border="0" valign="top" align="center" width="100%" height="30px" bgcolor="#D7FFD7" cellspacing="0" cellpadding="0"><tbody><tr><td align="center">Rozliczony</td></tr></tbody></table></td></tr>
+		</tbody></table>
+		<br><a align="right" id="tmp_link" href="https://ebok.wodkan.pl/ebok_main.php?page=odcz_h">Powrót (wszystkie liczniki)</a>
+					<input type="hidden" name="a" value="">
+					<input type="hidden" name="p" value="">
+					<input type="hidden" name="l" value="">
+					<input type="hidden" name="n" value="">
+	</td>
+</tr>
+</tbody></table>
+</form>
+<div id="gconf_msg2" align="center" style="display:none; POSITION: fixed; TOP: 0; LEFT: 0; width:100%; height:100%;  background-image:URL(image/tlo_popup.png); background-repeat:no-repeat; background-position: center; background-size: cover; Z-INDEX: 20;">
+  <div id="gconf_msg_tb_outer" align="center" valign="center" style="POSITION: fixed; WIDTH: 60%;TOP: 50%; LEFT: 50%; align: center; margin-top: -7%; margin-left: -30%; Z-INDEX: 20;">
+	<table class="panel_info" cellpadding="0" cellspacing="3%">
+		<tbody><tr>
+			<td class="div_panel_info" valign="top" style="padding:3%;">
+				<div id="gconf_msg_outer">
+					<div style="font-family: Verdana; font-size: 1.5vw; font-weight: bold;" align="center"></div>
+						<div align="center">
+							<br>
+							<br>
+							<button type="submit" width="20%" height="5%" style="padding: 1.5%; background-color: #DDDDDD; font-size: 1.1vw;" href="javascript:void(0)" onclick="document.getElementById('gconf_msg2').style.display = 'none'; return true;"> OK </button>
+						</div>
+					</div>
+				
+			</td>
+		</tr>
+	</tbody></table>
+   </div>
+</div>
+<div id="graf_ind" style="display:none;z-index:14;position: absolute; left: 20%; top: 25%; width: 50%; height: 60%;">
+	<table id="graf_ind_table" width="100%" height="100%" cellpadding="0" cellspacing="10px" bgcolor="white" style="border: 3px solid #949494; box-shadow: 5px 5px 10px;z-index:15; ">
+		<tbody><tr>
+			<td>
+				
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+
+</div>
+
+							<div id="EbokPageContent1_outer">
+
+</div>
+
+							<div id="EbokPageContent2_outer">
+
+</div>
+
+					  </div>
+					</td>
+				  </tr>
+			  </tbody></table>
+			</td>
+		   </tr>
+	      </tbody></table>
+	</div></td>
+   </tr>
+   <tr>
+		<td height="100px">
+			&nbsp;
+		</td>
+   </tr>
+  </tbody></table>
+ 
+
+
+	
+		<div id="head_visible" bgcolor="#F5F5F5" style="display: block; z-index: 0; top: 126.039px;">
+		<table valign="top" id="lpan" width="100%" bgcolor="#F5F5F5" align="center" border="0" cellspacing="0" cellpadding="0" style="width:100%;z-index:0;">
+			<tbody><tr>
+				<td width="100%" valign="top" bgcolor="#F5F5F5">
+						
+		  <table valign="top" cellpadding="0" cellspacing="0" style="width: 100%; align: center; background-color: #ffffff; color: #00008c">
+        <tbody><tr>
+            <td valign="top">
+              <table valign="top" border="0" width="100%" cellpadding="0" cellspacing="0" align="left">
+                <tbody><tr>
+                  <td class="boxheader" valign="center" align="center" style="font-size: 0.96vw;">
+									  <a valign="center" href="https://ebok.wodkan.pl/ebok_main.php?page=con">Dane kontaktowe biura</a>
+								  </td>
+                </tr>
+                <tr>
+                  <td valign="top">
+                      &nbsp;<table valign="top" border="0" width="100%" cellpadding="0" cellspacing="0" align="left">
+                <tbody><tr>
+                  <td width="100%" valign="top" align="center" style="font-size: 0.96vw;"><strong>Tarnobrzeskie Wodociągi Sp. z o.o.</strong></td>
+                </tr>
+                <tr>
+                  <td width="100%" valign="top" align="center" style="font-size: 0.96vw;">39-400 Tarnobrzeg</td>
+                </tr>
+                <tr></tr>
+                <tr>
+                  <td width="100%" valign="top" align="center" style="font-size: 0.96vw;">ul. Wiślna 1</td>
+                </tr><tr>
+                    <td id="day_head" valign="top" width="100%" align="center" style="font-size: 0.96vw;">
+                      <a style="color: #00008c; weight:bold; text-decoration: underline;" href="http://www.wodociagi.tarnobrzeg.pl/" target="NEW">Strona internetowa</a>
+                    </td>
+                  </tr><tr><td></td></tr><tr>
+                    <td id="day_head" valign="top" width="100%" align="center" style="font-size: 0.96vw;">
+                      <a style="color: #00008c; weight:bold; text-decoration: underline;" href="mailto:bok@wodociagitarnobrzeg.pl">Email główny</a>
+                    </td>
+                  </tr><tr><td valign="top"></td></tr><tr>
+                    <td id="day_head" valign="top" width="100%" align="center" style="font-size: 0.96vw; color: #00008c">
+                      15 823 22 95
+                    </td>
+                  </tr></tbody></table>
+                  </td>
+               </tr>
+              </tbody></table>
+            </td><td valign="top">
+        <table valign="top" border="0" width="100%" cellpadding="0" cellspacing="0" align="left">
+          <tbody><tr>
+             <td class="boxheader" valign="center" align="center" style="font-size: 0.96vw;">
+               <a href="javascript:void(0)" onclick="hours_change(); return false;">Godziny urzędowania
+                </a>
+             </td>
+          </tr><tr>
+              <td>
+                <div id="work_hours" align="center" style="display: block;">
+                 <table style="color: #00008c" align="center" valign="center" cellspacing="0" cellpadding="0">
+                  <tbody><tr>
+                    <td valign="top">
+                    </td>
+                  </tr>
+				 <tr>
+					<td valign="top"></td>
+				</tr>
+				      </tbody></table>
+             </div>
+          </td>
+        </tr>
+     </tbody></table>
+   </td><td valign="top">
+        <table valign="top" border="0" width="100%" cellpadding="0" cellspacing="0" align="left"><tbody><tr>
+             <td class="boxheader" valign="center" align="center" style="font-size: 0.96vw;">
+              <table align="center">
+                <tbody><tr>
+                  <td><a href="javascript:void(0)" onclick="document.getElementById('nsup').style.display = 'block';return false;">Nowe wiadomości</a>:</td><td style="font-size:0.96vw;color:black;font-weight: normal;"><div id="nr_dmsg" style="font-size:0.96vw;color:black;font-weight: normal;">0</div></td></tr></tbody></table></td>
+          </tr>
+          <tr>
+            <td>
+                &nbsp;
+			      </td>
+		  </tr>
+     </tbody></table>
+    </td>
+    <td valign="top">
+     <table valign="top" border="0" width="100%" cellpadding="0" cellspacing="0" align="left">
+		  <tbody><tr valign="center">
+        <td class="boxheader" valign="center" align="center" style="font-size: 0.96vw;">
+				    <a href="https://ebok.wodkan.pl/ebok_main.php?page=act">Aktywności</a>
+			  </td>
+      </tr>
+      <tr valign="top">
+            <td valign="top" align="center">
+              <table valign="top" border="0" width="100%" align="left">
+                <tbody><tr>
+                  <td valign="top" width="100%" align="left" style="font-size: 0.96vw;">Pomyślne logowanie:</td>
+                </tr>
+                <tr valign="top">
+                  <td valign="top" width="100%" align="center" style="font-size: 0.96vw;">2026-04-16 12:38:28</td>
+                </tr>
+                <tr valign="top">
+                  <td valign="top" width="100%" align="left" style="font-size: 0.96vw;">Niepomyślne logowanie:</td>
+                </tr>
+                <tr valign="top">
+                  <td valign="top" width="100%" align="center" style="font-size: 0.96vw;">2024-08-23 22:12:40</td>
+                </tr>
+              </tbody></table>
+            </td>
+       </tr>
+      </tbody></table>
+     </td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+    </tr>
+</tbody></table>
+				</td>
+			</tr>
+		</tbody></table>
+		</div>
+	
+
+
+
+<div id="head_visible" style="display: block;">
+<table valign="bottom" border="0" cellspacing="0" cellpadding="0" height="40px" bgcolor="white" style="POSITION: fixed; TOP: 100%; LEFT:0; width:100%; margin-top: -40px; align: center;  background-color: #ffffff;;  z-index:10;">				
+	<tbody><tr>
+		 <td align="center" class="footer_ver">
+				<a style="color: #00008c" align="center" href="https://www.tytan.poznan.pl/" target="NEW">	Copyright © Tytan Sp. z o.o. All Rights Reserved.</a>
+		</td>
+		<td width="90px" style="padding: 10px; font-size: 9pt; text-align: left; color: #00008c">
+			EBOK ver&nbsp;7.06
+		</td>
+		<td>
+		<script>
+			r = window.devicePixelRatio;
+/*            document.write(r);*/
+        </script>
+		</td>
+		<td>
+			<div id="spa"></div>
+		</td>
+	</tr>
+</tbody></table>
+</div>
+<div id="logo_w" style="display:none;">182</div>
+<div id="logo_h" style="display:none;">167.66929133858</div>
+<div id="p" style="display:none;">odcz_h</div>
+<div id="ipp" style="display:none;">0</div>
+<div id="err_com" style="display: none; POSITION: absolute; TOP: 0; LEFT: 0; width:100%; height:100%;  background-image:URL(image/tlo_popup1.png); background-repeat:no-repeat; background-position: center; background-size: cover; Z-INDEX: 20;">
+	<table id="err_msg_table" width="100%" height="100%" cellpadding="0" cellspacing="3%" bgcolor="#E6FFE6" style="border: 3px solid #949494; box-shadow: 10px 10px 10px;LEFT: 20%; WIDTH: 60%; POSITION: fixed; TOP: 35%; HEIGHT: 20%;  Z-INDEX: 20;">
+		<tbody><tr>
+			<td valign="top">
+				<div id="err_msg_outer">
+					<div id="err_message" style=" font-family: Verdana; font-size: 10pt; font-weight: bold; background-color: #E6FFE6;" align="center"></div>
+						<div align="center">
+							<br>
+							<br>
+							<button type="submit" width="100px" height="50px" style="padding: 5px; background-color: #DDDDDD;" href="javascript:void(0)" onclick="document.getElementById('err_com').style.display = 'none'; return false;"> OK </button>
+						</div>
+					</div>
+				
+			</td>
+		</tr>
+	</tbody></table>
+</div>
+<div id="nsup" align="center" style="POSITION: fixed; TOP: 0; LEFT: 0; width:100%; height:100%;  background-image:URL(image/tlo_popup.png); background-repeat:no-repeat; background-position: center; background-size: cover; Z-INDEX: 20;">
+  <div id="gconf_msg_tb_outer" align="center" valign="center" style="POSITION: fixed; WIDTH: 60%;TOP: 50%; LEFT: 50%; align: center; margin-top: -7%; margin-left: -30%; Z-INDEX: 20;">
+	<table class="panel_info" cellpadding="0" cellspacing="3%">
+		<tbody><tr>
+			<td class="div_panel_info" valign="top" style="padding:3%;">
+				<div id="gconf_msg_outer">
+					<div style="font-family: Verdana; font-size: 1.5vw; font-weight: bold;" align="center">
+						Przepraszamy, ta opcja nie jest aktualnie obsługiwana
+					</div>
+						<div align="center">
+							<br>
+							<br>
+							<button type="submit" width="100px" height="50px" style="padding: 5px; background-color: #DDDDDD;" onclick="document.getElementById('nsup').style.display = 'none'; return false;"> OK </button>
+						</div>
+				</div>
+			</td>
+		</tr>
+	</tbody></table>
+  </div>
+</div>
+<div id="get_dat_st" align="center" style="display: none; POSITION: fixed; TOP: 0; LEFT: 0; width:100%; height:100%;  background-image:URL(image/tlo_popup.png); background-repeat:no-repeat; background-position: center; background-size: cover; Z-INDEX: 50;">
+  <div id="get_dat_st_int" align="center" valign="center" style="POSITION: fixed; WIDTH: 60%;TOP: 50%; LEFT: 50%; align: center; font-size: 12pt; transform: translate(-50%, -50%); Z-INDEX: 51;">	
+	  <table class="panel_info" cellspacing="5%" cellpadding="10%" style="height: 100px; Z-INDEX: 51;">
+		<tbody><tr>
+			<td align="center" valign="center">
+				<div style="font-family: Verdana; font-size: 1.5vw; font-weight: bold;Z-INDEX: 52;">Proszę czekać ...</div>
+			</td>
+			<td valign="top" align="left" width="25%">
+				<div class="lds-spinner_sm"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>				
+			</td>
+		</tr>
+	</tbody></table>
+  </div>
+</div>
+<div id="get_data" valign="center" align="center" style="display: none; POSITION: absolute; TOP: 0; LEFT: 0; width:100%; height:100%;  background-image:URL(image/tlo_popup.png); background-repeat:no-repeat; background-position: center; background-size: cover; Z-INDEX: 15;">
+  <div id="get_data_outer" align="center" valign="center" style="POSITION: fixed; WIDTH: 60%;TOP: 50%; LEFT: 50%; align: center; margin-top: -7%; margin-left: -30%; Z-INDEX: 20;">
+	<table class="panel_info" border="0" cellspacing="5%" cellpadding="10%" style="height: 100px;">
+		<tbody><tr>
+			<td valign="center" align="center">
+				<div style="font-family: Verdana; font-size: 1.5vw; font-weight: bold;">Proszę czekać trwa pobieranie danych ...</div>
+			</td>
+			<td valign="top" align="left" width="25%">
+				<div class="lds-spinner_sm"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+			</td>
+		</tr>
+	</tbody></table>
+  </div>
+</div>
+<div class="modal fade mymodal" role="dialog" tabindex="-1" style="width: 100%;">
+	<div class="modal-dialog modal-xl" role="document" style="">
+		<div class="modal-content">
+			<div class="modal-header border-primary" style="background: rgb(68,62,152); padding:3px;">
+				<h4 class="modal-title text-light"><div id="sel_modal_title"></div></h4>
+			</div>
+			<div class="modal-body" style="max-height: 77vh;overflow: auto;">
+				<div class="ratio ratio-16x9">
+					<div id="body_sel_page_id" style="valign:top;"></div>
+				</div>
+			</div>
+			<div class="modal-footer" style="padding:2px;"><button class="btn btn-primary" type="button" data-bs-dismiss="modal">Zamknij</button></div>
+		</div>
+	</div>
+</div>
+  <script type="text/javascript" src="ebok_main_data/common.js"></script>
+  <script type="text/javascript" src="ebok_main_data/uw_da.js"></script>
+  <script type="text/javascript" src="ebok_main_data/calendar.js"></script>
+  <script type="text/javascript" src="ebok_main_data/calendar-en.js"></script>
+  <script type="text/javascript" src="ebok_main_data/calendar-setup.js"></script>
+  <script type="text/javascript" src="ebok_main_data/awa_func.js"></script>
+  <script type="text/javascript" src="ebok_main_data/msgs_func_1.js"></script>
+  <script src="ebok_main_data/jquery.min.js"></script>
+  <script src="ebok_main_data/bootstrap.bundle.min_002.js"></script>
+  <script src="ebok_main_data/aos.js"></script>
+  <script src="ebok_main_data/script.min.js"></script>
+  <script type="text/javascript" src="ebok_main_data/script_mymodal.js"></script>
+  <script src="ebok_main_data/pod_script_mymodal.js"></script>
+  <script src="ebok_main_data/bootstrap.min.js"></script>
+    <script src="ebok_main_data/bootstrap.bundle.min.js"></script>
+    <script src="ebok_main_data/pikaday.min.js"></script>
+    <script src="ebok_main_data/theme.js"></script>
+
+
+<script data-account="hEoFNK3joV" src="ebok_main_data/widget.js"></script><script src="ebok_main_data/widget_app_1776163220800.js" async="" id="a11yWidgetSrc" crossorigin="anonymous" integrity="sha256-ZtsGpXjoEmZ4IfHe66yUy6QXTYHeJcuyW8mVycgc2Lo="></script><script crossorigin="anonymous" integrity="sha256-FlZ+9mDxUInTahFMOiH1UzKTo1LrumN2c0BTyiXDgIw=" src="ebok_main_data/remediation_1776163220800.js"></script><script data-account="hEoFNK3joV" src="ebok_main_data/widget.js"></script><script data-account="hEoFNK3joV" src="ebok_main_data/widget.js"></script></body></html>

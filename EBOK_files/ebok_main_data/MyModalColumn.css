@@ -1,0 +1,38 @@
+.features-boxed p {
+  color: #7d8285;
+}
+
+.features-boxed .item {
+  text-align: center;
+}
+
+.features-boxed .item .box {
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.features-boxed .item .name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+  margin-top: 0;
+  color: inherit;
+}
+
+.features-boxed .item .description {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.shadow-lg.box:hover {
+  background-color: lightblue;
+  box-shadow: 10px 10px 10px black;
+}
+
+.btn:not(:disabled):not(.disabled):hover {
+  box-shadow: 5px 5px 10px black;
+}
+
